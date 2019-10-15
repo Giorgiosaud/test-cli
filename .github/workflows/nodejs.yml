@@ -26,6 +26,6 @@ jobs:
         npm install -g @modyo/cli@1.2.8
     - name: push to modyo
       run: |
-         modyo-cli push --token= ${{ secrets.LVTokenDevelop }} --accountUrl=${{ secrets.LVAccountURLDevelop }} --selectedSiteId=${{ secrets.LVSiteIdDevelop }} --force
+         modyo-cli push --token=${{ secrets.LVTokenDevelop }} --accountUrl=${{ secrets.LVAccountURLDevelop }} --selectedSiteId=${{ secrets.LVSiteIdDevelop }} --force
       env:
         CI: true
