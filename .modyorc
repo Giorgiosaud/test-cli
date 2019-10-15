@@ -1,0 +1,14 @@
+{
+    "accountUrl": "https://larrainvial.modyo.be",
+    "sitesListUrl": "https://larrainvial.modyo.be/api/v1/sites",
+    "loginUrl": "https://larrainvial.modyo.be/login",
+    "logoutUrl": "https://larrainvial.modyo.be/logout",
+    "packageManager": "npm",
+    "selectedSite": 1,
+    "modyoVersion": 8,
+    "widget": {
+        "key": "apv",
+        "name": "APV",
+        "entrypoint": "./src/main.js"
+    }
+}
