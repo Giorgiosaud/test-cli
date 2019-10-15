@@ -1,7 +1,7 @@
 name: Node CI
 
 on: 
-  pull_request:
+  push:
     branches: 
       - develop
 
@@ -23,7 +23,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm install -g @modyo/cli@1.2.6
+        npm install -g @modyo/cli@1.2.8
     - name: push to modyo
       run: |
          modyo-cli push --token= ${{ secrets.LVTokenDevelop }} --accountUrl=${{ secrets.LVAccountURLDevelop }} --selectedSiteId=${{ secrets.LVSiteIdDevelop }}
