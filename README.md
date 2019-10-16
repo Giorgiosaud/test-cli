@@ -1,5 +1,4 @@
-# Widget Project for  APV https://github.com/Giorgiosaud/test-cli/workflows/push_to_modyo.yml/badge.svg
-
+# Widget Project for  APV ![](https://github.com/Giorgiosaud/test-cli/workflows/Push%20to%20Modyo/badge.svg)
 
 The main feature of modyo-cli is show the widget and push to the modyo playform
 
